@@ -33,8 +33,9 @@ const medusaConfig = {
     redisUrl: REDIS_URL,
     workerMode: WORKER_MODE,
     // other config...
-    store_cors: "https://your-vercel-site.vercel.app",
-    admin_cors: "http://localhost:7000",
+    store_cors: "https://storefront-production-0f80.up.railway.app",
+    "https://*.vercel.app",
+    admin_cors: "https://backend-production-1d1b.up.railway.app,https://backend.railway.internal",
     http: {
       adminCors: ADMIN_CORS,
       authCors: AUTH_CORS,
