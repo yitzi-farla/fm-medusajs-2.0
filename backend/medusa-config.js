@@ -32,6 +32,9 @@ const medusaConfig = {
     databaseLogging: false,
     redisUrl: REDIS_URL,
     workerMode: WORKER_MODE,
+    // other config...
+    store_cors: "https://your-vercel-site.vercel.app",
+    admin_cors: "http://localhost:7000",
     http: {
       adminCors: ADMIN_CORS,
       authCors: AUTH_CORS,
